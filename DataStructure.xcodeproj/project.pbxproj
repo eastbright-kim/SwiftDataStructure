@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB9156A926774F87008FBD72 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156A826774F87008FBD72 /* main.swift */; };
+		DB9156A926774F87008FBD72 /* BetterQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156A826774F87008FBD72 /* BetterQueue.swift */; };
+		DB9156B026777396008FBD72 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156AF26777396008FBD72 /* InsertionSort.swift */; };
+		DB9156B226777848008FBD72 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156B126777848008FBD72 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,9 @@
 
 /* Begin PBXFileReference section */
 		DB9156A526774F87008FBD72 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB9156A826774F87008FBD72 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DB9156A826774F87008FBD72 /* BetterQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterQueue.swift; sourceTree = "<group>"; };
+		DB9156AF26777396008FBD72 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
+		DB9156B126777848008FBD72 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 		DB9156A726774F87008FBD72 /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
-				DB9156A826774F87008FBD72 /* main.swift */,
+				DB9156A826774F87008FBD72 /* BetterQueue.swift */,
+				DB9156AF26777396008FBD72 /* InsertionSort.swift */,
+				DB9156B126777848008FBD72 /* main.swift */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -119,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB9156A926774F87008FBD72 /* main.swift in Sources */,
+				DB9156A926774F87008FBD72 /* BetterQueue.swift in Sources */,
+				DB9156B026777396008FBD72 /* InsertionSort.swift in Sources */,
+				DB9156B226777848008FBD72 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
