@@ -39,4 +39,23 @@ public struct InsertionSort {
         }
         return sortedArr
     }
+    
+    //제네릭으로 만들기
+    func insertionSort<T>(_ array: [T], _ isOrderedBefore: (T, T) -> Bool) -> [T] {
+        
+        var sortedArr = array
+        
+        for index in 1...sortedArr.count - 1 {
+            
+            var currentIndex = index
+            let temp = sortedArr[currentIndex]
+            while currentIndex > 0 && isOrderedBefore(temp, sortedArr[currentIndex - 1]) {
+                sortedArr[currentIndex] = sortedArr[currentIndex - 1]
+                currentIndex -= 1
+            }
+            sortedArr[currentIndex] = temp
+        }
+        
+        return sortedArr
+    }
 }
