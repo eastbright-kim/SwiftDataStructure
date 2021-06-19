@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB06D442267DADFE00F7874B /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06D441267DADFE00F7874B /* Tree.swift */; };
 		DB9156A926774F87008FBD72 /* BetterQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156A826774F87008FBD72 /* BetterQueue.swift */; };
 		DB9156B026777396008FBD72 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156AF26777396008FBD72 /* InsertionSort.swift */; };
 		DB9156B226777848008FBD72 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156B126777848008FBD72 /* main.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DB06D441267DADFE00F7874B /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		DB9156A526774F87008FBD72 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9156A826774F87008FBD72 /* BetterQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterQueue.swift; sourceTree = "<group>"; };
 		DB9156AF26777396008FBD72 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				DBD685662679CF0C008FABE4 /* BinarySearch.swift */,
 				DB9156AF26777396008FBD72 /* InsertionSort.swift */,
 				DB9156B126777848008FBD72 /* main.swift */,
+				DB06D441267DADFE00F7874B /* Tree.swift */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB06D442267DADFE00F7874B /* Tree.swift in Sources */,
 				DBD685672679CF0C008FABE4 /* BinarySearch.swift in Sources */,
 				DB9156A926774F87008FBD72 /* BetterQueue.swift in Sources */,
 				DB9156B026777396008FBD72 /* InsertionSort.swift in Sources */,
