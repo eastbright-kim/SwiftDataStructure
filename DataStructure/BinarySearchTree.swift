@@ -29,7 +29,7 @@ enum BinaryTree<T: Comparable> {
 }
 
 
-public class BinarySearchTree<T> {
+public class BinarySearchTree<T: Comparable> {
     
     private(set) public var value: T
     private(set) public var parent: BinarySearchTree?
@@ -74,5 +74,28 @@ public class BinarySearchTree<T> {
     
     public var count: Int {
         return (left?.count ?? 0) + 1 + (right?.count ?? 0)
+    }
+    
+    
+    public func insert(value: T) {
+        
+        //작으면 왼쪽
+        if value < self.value {
+            
+            if let left = left {
+                left.insert(value: value)
+            } else {
+                let left = BinarySearchTree(value: value)
+                self.left = left
+            }
+        } else {
+            
+            if let right = right {
+                right.insert(value: value)
+            } else {
+                let right = BinarySearchTree(value: value)
+                self.right = right
+            }
+        }
     }
 }
