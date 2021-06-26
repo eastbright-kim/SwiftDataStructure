@@ -99,3 +99,22 @@ public class BinarySearchTree<T: Comparable> {
         }
     }
 }
+
+extension BinarySearchTree: CustomStringConvertible {
+    public var description: String {
+        
+        var s = ""
+        
+        if let left = left {
+            s += "(\(left.description)) <- "
+        }
+        
+        s += "\(value)"
+        
+        if let right = right {
+            s += "\(right.description)"
+        }
+        
+        return s
+    }
+}
