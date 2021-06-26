@@ -79,7 +79,6 @@ public class BinarySearchTree<T: Comparable> {
     
     public func insert(value: T) {
         
-        //작으면 왼쪽
         if value < self.value {
             
             if let left = left {
@@ -97,6 +96,32 @@ public class BinarySearchTree<T: Comparable> {
                 self.right = right
             }
         }
+    }
+    
+    public func search(value: T) -> BinarySearchTree?{
+        if value < self.value {
+            return left?.search(value: value)
+        } else if value > self.value {
+            return right?.search(value: value)
+        } else {
+            return self
+        }
+    }
+    
+    public func iterativeSearch(value: T) -> BinarySearchTree? {
+        
+        var node: BinarySearchTree? = self
+        
+        while let n = node {
+            if value < n.value {
+                node = left
+            } else if value > n.value {
+                node = right
+            } else {
+                return node
+            }
+        }
+        return nil
     }
 }
 
