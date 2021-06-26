@@ -123,6 +123,25 @@ public class BinarySearchTree<T: Comparable> {
         }
         return nil
     }
+    
+    public func traverseInOrder(process: (T) -> Void) {
+        left?.traverseInOrder(process: process)
+        process(value)
+        right?.traverseInOrder(process: process)
+    }
+    
+    public func traversePreOrder(process: (T) -> Void) {
+        process(value)
+        left?.traversePreOrder(process: process)
+        right?.traversePreOrder(process: process)
+    }
+    
+    public func traversePostOrder(process: (T) -> Void) {
+        left?.traversePostOrder(process: process)
+        right?.traversePostOrder(process: process)
+        process(value)
+    }
+    
 }
 
 extension BinarySearchTree: CustomStringConvertible {
