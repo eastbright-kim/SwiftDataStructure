@@ -218,6 +218,36 @@ public class BinarySearchTree<T: Comparable> {
         }
         return edge
     }
+    
+    public func predecessor() -> BinarySearchTree?{
+        
+        if let left = left {
+            return left.maximum()
+        } else {
+            while let n = parent {
+                if n.value < self.value {
+                    return n
+                }
+                parent = n.parent
+            }
+        }
+        return nil
+    }
+    
+    public func successor() -> BinarySearchTree?{
+        if let right = right {
+            return right.minimum()
+        } else {
+            var parent = parent
+            while let n = parent {
+                if n.value > self.value {
+                    return n
+                }
+                parent = n.parent
+            }
+        }
+        return nil
+    }
 }
 
 extension BinarySearchTree: CustomStringConvertible {
