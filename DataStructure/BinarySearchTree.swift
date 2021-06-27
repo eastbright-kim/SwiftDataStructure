@@ -152,6 +152,25 @@ public class BinarySearchTree<T: Comparable> {
             node.parent = parent
         }
     }
+    
+    public func minimum() -> BinarySearchTree {
+        
+        var node = self
+        while let n = node.left {
+            node = n.minimum()
+        }
+        return node
+    }
+    
+    public func maximum() -> BinarySearchTree {
+        
+        var node = self
+        while let n = node.right {
+            node = n.maximum()
+        }
+        return node
+    }
+    
 }
 
 extension BinarySearchTree: CustomStringConvertible {
