@@ -13,6 +13,7 @@
 		DB9156B026777396008FBD72 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156AF26777396008FBD72 /* InsertionSort.swift */; };
 		DB9156B226777848008FBD72 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156B126777848008FBD72 /* main.swift */; };
 		DBD685672679CF0C008FABE4 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD685662679CF0C008FABE4 /* BinarySearch.swift */; };
+		DBF6669A2688C1BF00E7521A /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF666992688C1BF00E7521A /* MergeSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		DB9156AF26777396008FBD72 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		DB9156B126777848008FBD72 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DBD685662679CF0C008FABE4 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		DBF666992688C1BF00E7521A /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				DB9156B126777848008FBD72 /* main.swift */,
 				DB06D441267DADFE00F7874B /* Tree.swift */,
 				DB3CF995267F3A0300554B2A /* BinarySearchTree.swift */,
+				DBF666992688C1BF00E7521A /* MergeSort.swift */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 				DBD685672679CF0C008FABE4 /* BinarySearch.swift in Sources */,
 				DB3CF996267F3A0300554B2A /* BinarySearchTree.swift in Sources */,
 				DB9156A926774F87008FBD72 /* BetterQueue.swift in Sources */,
+				DBF6669A2688C1BF00E7521A /* MergeSort.swift in Sources */,
 				DB9156B026777396008FBD72 /* InsertionSort.swift in Sources */,
 				DB9156B226777848008FBD72 /* main.swift in Sources */,
 			);
