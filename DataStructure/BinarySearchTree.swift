@@ -142,14 +142,14 @@ public class BinarySearchTree<T: Comparable> {
         process(value)
     }
     
-    public func reconnectParentTo(node: BinarySearchTree) {
+    public func reconnectParentTo(node: BinarySearchTree?) {
         if let parent = parent {
             if isLeftChild {
                 parent.left = node
             } else {
                 parent.right = node
             }
-            node.parent = parent
+            node?.parent = parent
         }
     }
     
@@ -169,6 +169,33 @@ public class BinarySearchTree<T: Comparable> {
             node = n.maximum()
         }
         return node
+    }
+    
+    @discardableResult public func remove() -> BinarySearchTree? {
+        
+        var replacement: BinarySearchTree?
+        
+        if let right = right {
+            replacement = right.minimum()
+        } else if let left = left {
+            replacement = left.maximum()
+        } else {
+            replacement = nil
+        }
+        
+        replacement?.remove()
+        
+        replacement?.right = right
+        replacement?.left = left
+        replacement?.reconnectParentTo(node: replacement)
+        right?.parent = self
+        left?.parent = self
+        
+        parent = nil
+        left = nil
+        right = nil
+        
+        return replacement
     }
     
 }
