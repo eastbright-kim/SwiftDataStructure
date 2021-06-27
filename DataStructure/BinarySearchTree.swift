@@ -142,6 +142,16 @@ public class BinarySearchTree<T: Comparable> {
         process(value)
     }
     
+    public func reconnectParentTo(node: BinarySearchTree) {
+        if let parent = parent {
+            if isLeftChild {
+                parent.left = node
+            } else {
+                parent.right = node
+            }
+            node.parent = parent
+        }
+    }
 }
 
 extension BinarySearchTree: CustomStringConvertible {
