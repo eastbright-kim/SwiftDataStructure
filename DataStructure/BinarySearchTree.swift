@@ -198,6 +198,26 @@ public class BinarySearchTree<T: Comparable> {
         return replacement
     }
     
+    public func height() -> Int {
+        
+        if isLeaf {
+            return 0
+        } else {
+            return 1 + max(left?.height() ?? 0, right?.height() ?? 0)
+        }
+    }
+    
+    public func depth() -> Int {
+        
+        var node = self
+        var edge = 0
+        
+        while let parent = node.parent {
+            node = parent
+            edge += 1
+        }
+        return edge
+    }
 }
 
 extension BinarySearchTree: CustomStringConvertible {
