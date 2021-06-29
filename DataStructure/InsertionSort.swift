@@ -59,8 +59,11 @@ public struct InsertionSort {
         return sortedArr
     }
     
+    
     // 인스턴스의 프로퍼티로 비교해도 정렬 가능
     
 }
 
 //O(n^2) - 소규모의 배열에 빠름. 100개 정도의 배열이 상한
+
+
