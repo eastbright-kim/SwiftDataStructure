@@ -14,6 +14,7 @@
 		DB9156B226777848008FBD72 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156B126777848008FBD72 /* main.swift */; };
 		DB94D9412689EE5E0094FDE3 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94D9402689EE5E0094FDE3 /* Array2D.swift */; };
 		DBB38EE0268AB88F00E76F70 /* sortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB38EDF268AB88F00E76F70 /* sortedArray.swift */; };
+		DBB38EE3268B53A400E76F70 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB38EE2268B53A400E76F70 /* Deque.swift */; };
 		DBD685672679CF0C008FABE4 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD685662679CF0C008FABE4 /* BinarySearch.swift */; };
 		DBF6669A2688C1BF00E7521A /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF666992688C1BF00E7521A /* MergeSort.swift */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,7 @@
 		DB9156B126777848008FBD72 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DB94D9402689EE5E0094FDE3 /* Array2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		DBB38EDF268AB88F00E76F70 /* sortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortedArray.swift; sourceTree = "<group>"; };
+		DBB38EE2268B53A400E76F70 /* Deque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deque.swift; sourceTree = "<group>"; };
 		DBD685662679CF0C008FABE4 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		DBF666992688C1BF00E7521A /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +83,7 @@
 				DB06D441267DADFE00F7874B /* Tree.swift */,
 				DB3CF995267F3A0300554B2A /* BinarySearchTree.swift */,
 				DBF666992688C1BF00E7521A /* MergeSort.swift */,
+				DBB38EE2268B53A400E76F70 /* Deque.swift */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				DBF6669A2688C1BF00E7521A /* MergeSort.swift in Sources */,
 				DB94D9412689EE5E0094FDE3 /* Array2D.swift in Sources */,
 				DB9156B026777396008FBD72 /* InsertionSort.swift in Sources */,
+				DBB38EE3268B53A400E76F70 /* Deque.swift in Sources */,
 				DB9156B226777848008FBD72 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -44,7 +44,7 @@ public struct sortedArray<T: Comparable> {
             } else if self.array[midIndex] < newElement {
                 startIndex = midIndex + 1
             } else {
-                endIndex = midIndex - 1
+                endIndex = midIndex
             }
         }
         return startIndex
