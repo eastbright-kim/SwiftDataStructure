@@ -12,6 +12,7 @@
 		DB9156A926774F87008FBD72 /* BetterQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156A826774F87008FBD72 /* BetterQueue.swift */; };
 		DB9156B026777396008FBD72 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156AF26777396008FBD72 /* InsertionSort.swift */; };
 		DB9156B226777848008FBD72 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156B126777848008FBD72 /* main.swift */; };
+		DB94D9412689EE5E0094FDE3 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94D9402689EE5E0094FDE3 /* Array2D.swift */; };
 		DBD685672679CF0C008FABE4 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD685662679CF0C008FABE4 /* BinarySearch.swift */; };
 		DBF6669A2688C1BF00E7521A /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF666992688C1BF00E7521A /* MergeSort.swift */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,7 @@
 		DB9156A826774F87008FBD72 /* BetterQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterQueue.swift; sourceTree = "<group>"; };
 		DB9156AF26777396008FBD72 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		DB9156B126777848008FBD72 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DB94D9402689EE5E0094FDE3 /* Array2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		DBD685662679CF0C008FABE4 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		DBF666992688C1BF00E7521A /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,6 +55,7 @@
 		DB91569C26774F87008FBD72 = {
 			isa = PBXGroup;
 			children = (
+				DB94D93F2689EE510094FDE3 /* Array */,
 				DB9156A726774F87008FBD72 /* DataStructure */,
 				DB9156A626774F87008FBD72 /* Products */,
 			);
@@ -78,6 +81,14 @@
 				DBF666992688C1BF00E7521A /* MergeSort.swift */,
 			);
 			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		DB94D93F2689EE510094FDE3 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				DB94D9402689EE5E0094FDE3 /* Array2D.swift */,
+			);
+			path = Array;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 				DB3CF996267F3A0300554B2A /* BinarySearchTree.swift in Sources */,
 				DB9156A926774F87008FBD72 /* BetterQueue.swift in Sources */,
 				DBF6669A2688C1BF00E7521A /* MergeSort.swift in Sources */,
+				DB94D9412689EE5E0094FDE3 /* Array2D.swift in Sources */,
 				DB9156B026777396008FBD72 /* InsertionSort.swift in Sources */,
 				DB9156B226777848008FBD72 /* main.swift in Sources */,
 			);
