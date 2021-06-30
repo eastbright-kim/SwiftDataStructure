@@ -103,7 +103,10 @@ public class LinkedList<T> {
             prev.next = newNode
             next?.previous = newNode
         }
-        
+    }
+    
+    public func removeAll(){
+        head = nil
     }
 }
 

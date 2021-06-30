@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DB06D442267DADFE00F7874B /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06D441267DADFE00F7874B /* Tree.swift */; };
 		DB3CF996267F3A0300554B2A /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3CF995267F3A0300554B2A /* BinarySearchTree.swift */; };
+		DB3E5064268C832A00BFEF25 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E5063268C832A00BFEF25 /* Heap.swift */; };
 		DB9156A926774F87008FBD72 /* BetterQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156A826774F87008FBD72 /* BetterQueue.swift */; };
 		DB9156B026777396008FBD72 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156AF26777396008FBD72 /* InsertionSort.swift */; };
 		DB9156B226777848008FBD72 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156B126777848008FBD72 /* main.swift */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		DB06D441267DADFE00F7874B /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		DB3CF995267F3A0300554B2A /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
+		DB3E5063268C832A00BFEF25 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		DB9156A526774F87008FBD72 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9156A826774F87008FBD72 /* BetterQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterQueue.swift; sourceTree = "<group>"; };
 		DB9156AF26777396008FBD72 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
@@ -58,9 +60,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB3E5062268C831700BFEF25 /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E5063268C832A00BFEF25 /* Heap.swift */,
+			);
+			path = Trees;
+			sourceTree = "<group>";
+		};
 		DB91569C26774F87008FBD72 = {
 			isa = PBXGroup;
 			children = (
+				DB3E5062268C831700BFEF25 /* Trees */,
 				DBB38EE4268B5E1100E76F70 /* List */,
 				DB94D93F2689EE510094FDE3 /* Array */,
 				DB9156A726774F87008FBD72 /* DataStructure */,
@@ -168,6 +179,7 @@
 				DB06D442267DADFE00F7874B /* Tree.swift in Sources */,
 				DBD685672679CF0C008FABE4 /* BinarySearch.swift in Sources */,
 				DBB38EE0268AB88F00E76F70 /* sortedArray.swift in Sources */,
+				DB3E5064268C832A00BFEF25 /* Heap.swift in Sources */,
 				DB3CF996267F3A0300554B2A /* BinarySearchTree.swift in Sources */,
 				DB9156A926774F87008FBD72 /* BetterQueue.swift in Sources */,
 				DBF6669A2688C1BF00E7521A /* MergeSort.swift in Sources */,
