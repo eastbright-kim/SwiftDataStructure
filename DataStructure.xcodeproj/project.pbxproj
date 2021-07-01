@@ -10,6 +10,10 @@
 		DB06D442267DADFE00F7874B /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06D441267DADFE00F7874B /* Tree.swift */; };
 		DB3CF996267F3A0300554B2A /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3CF995267F3A0300554B2A /* BinarySearchTree.swift */; };
 		DB3E5064268C832A00BFEF25 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E5063268C832A00BFEF25 /* Heap.swift */; };
+		DB3E5067268CAAEE00BFEF25 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E5066268CAAEE00BFEF25 /* Graph.swift */; };
+		DB3E5069268CAFF300BFEF25 /* AbstractGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E5068268CAFF300BFEF25 /* AbstractGraph.swift */; };
+		DB3E506B268CB0A900BFEF25 /* Breadth-FirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E506A268CB0A900BFEF25 /* Breadth-FirstSearch.swift */; };
+		DB3E506D268CBB6300BFEF25 /* Depth-FirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E506C268CBB6300BFEF25 /* Depth-FirstSearch.swift */; };
 		DB9156A926774F87008FBD72 /* BetterQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156A826774F87008FBD72 /* BetterQueue.swift */; };
 		DB9156B026777396008FBD72 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156AF26777396008FBD72 /* InsertionSort.swift */; };
 		DB9156B226777848008FBD72 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9156B126777848008FBD72 /* main.swift */; };
@@ -37,6 +41,10 @@
 		DB06D441267DADFE00F7874B /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		DB3CF995267F3A0300554B2A /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 		DB3E5063268C832A00BFEF25 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		DB3E5066268CAAEE00BFEF25 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		DB3E5068268CAFF300BFEF25 /* AbstractGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractGraph.swift; sourceTree = "<group>"; };
+		DB3E506A268CB0A900BFEF25 /* Breadth-FirstSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Breadth-FirstSearch.swift"; sourceTree = "<group>"; };
+		DB3E506C268CBB6300BFEF25 /* Depth-FirstSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Depth-FirstSearch.swift"; sourceTree = "<group>"; };
 		DB9156A526774F87008FBD72 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9156A826774F87008FBD72 /* BetterQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterQueue.swift; sourceTree = "<group>"; };
 		DB9156AF26777396008FBD72 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
@@ -68,9 +76,21 @@
 			path = Trees;
 			sourceTree = "<group>";
 		};
+		DB3E5065268C895E00BFEF25 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E5066268CAAEE00BFEF25 /* Graph.swift */,
+				DB3E5068268CAFF300BFEF25 /* AbstractGraph.swift */,
+				DB3E506A268CB0A900BFEF25 /* Breadth-FirstSearch.swift */,
+				DB3E506C268CBB6300BFEF25 /* Depth-FirstSearch.swift */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
 		DB91569C26774F87008FBD72 = {
 			isa = PBXGroup;
 			children = (
+				DB3E5065268C895E00BFEF25 /* Graphs */,
 				DB3E5062268C831700BFEF25 /* Trees */,
 				DBB38EE4268B5E1100E76F70 /* List */,
 				DB94D93F2689EE510094FDE3 /* Array */,
@@ -176,10 +196,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB3E5069268CAFF300BFEF25 /* AbstractGraph.swift in Sources */,
 				DB06D442267DADFE00F7874B /* Tree.swift in Sources */,
+				DB3E506D268CBB6300BFEF25 /* Depth-FirstSearch.swift in Sources */,
+				DB3E5067268CAAEE00BFEF25 /* Graph.swift in Sources */,
 				DBD685672679CF0C008FABE4 /* BinarySearch.swift in Sources */,
 				DBB38EE0268AB88F00E76F70 /* sortedArray.swift in Sources */,
 				DB3E5064268C832A00BFEF25 /* Heap.swift in Sources */,
+				DB3E506B268CB0A900BFEF25 /* Breadth-FirstSearch.swift in Sources */,
 				DB3CF996267F3A0300554B2A /* BinarySearchTree.swift in Sources */,
 				DB9156A926774F87008FBD72 /* BetterQueue.swift in Sources */,
 				DBF6669A2688C1BF00E7521A /* MergeSort.swift in Sources */,
